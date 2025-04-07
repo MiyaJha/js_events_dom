@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cool-btn {
+            background: linear-gradient(45deg, #ff6b6b, #556270);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+       
+        .glow {
+            box-shadow: 0 0 15px rgba(255, 107, 107, 0.8);
+        }
+      body {
+            background-color: white;
+            color: black;
+    }
+       .dark-mode {
+            background-color: #1b0707;
+            color: pink;
+                   }
+ </style>
+</head>
+<body>
+    <p id="direction"></p>
+    <p id="onload"></p>
+    <button onclick="greet()" id="clickME"> Click me for something to happen</button>
+    <button id="randomColorBtn">Click Me For a Surprise</button>
+    <button class="cool-btn" onclick="changeBtnStyle()">Click me to change my style</button>
+    <button id="changeme">May The Force Be With You</button>
+    <script src="scripts.js"></script>
+</body>
+</html>
